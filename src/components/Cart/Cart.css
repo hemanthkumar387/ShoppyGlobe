@@ -1,7 +1,7 @@
 /* Container for the shopping cart */
 .cart-container {
   max-width: 1200px;
-  margin: auto;
+  margin: 70px auto;
   padding: 20px;
   background: #fff;
   border-radius: 8px;
