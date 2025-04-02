@@ -1,7 +1,21 @@
-cat <<EOL > README.md
 # Shopping Cart Application
 
-This is a simple e-commerce shopping cart application built with React, Redux, and React Router. It allows users to browse products, add them to the cart, and proceed to checkout.
+### This is a simple e-commerce shopping cart application built with React, Redux, and React Router. It allows users to browse products, add them to the cart, and proceed to checkout.
+
+## 🚀 Features
+✅ Browse products
+✅ Add products to cart
+✅ Remove products from cart
+✅ Update product quantity
+✅ Checkout functionality
+
+## 🛠️ Tech Stack
+- React.js (Frontend)
+- vite (Bundler)
+- Redux Toolkit (State Management)
+- React Router (Routing)
+- React Toastify (Notifications)
+- CSS (Styling)
 
 ## 📂 Project Structure
 ```
@@ -50,8 +64,8 @@ This is a simple e-commerce shopping cart application built with React, Redux, a
 
 1️⃣ **Clone the repository:**
 ```bash
-git clone https://github.com/your-repo/shopping-cart-app.git
-cd shopping-cart-app
+git clone https://github.com/hemanthkumar387/ShoppyGlobe.git
+cd shoppyglobe
 ```
 
 2️⃣ **Install dependencies:**
@@ -61,19 +75,14 @@ npm install
 
 3️⃣ **Start the development server:**
 ```bash
-npm start
+npm run dev
 ```
 
 4️⃣ **Open in Browser:**
-The app will be available at: [http://localhost:3000](http://localhost:3000)
+The app will be available at: [http://localhost:5173](http://localhost:5173)
 
-## 🛠️ Technologies Used
-- React.js
-- Redux Toolkit
-- React Router
-- React Toastify
-- Tailwind CSS (if applicable)
-
-## 📜 License
-This project is licensed under the MIT License.
-EOL
+## 📜 Usage Instructions
+- **Add a Product** – Click "Add to Cart" to add a product.
+- **Update Quantity** – Increase or decrease the quantity of a product.
+- **Remove Product** – Click "Remove" to delete a product from the cart.
+- **Proceed to Checkout** – Click "Checkout" to finalize the order.
