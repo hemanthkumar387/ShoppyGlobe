@@ -1,0 +1,120 @@
+/* Container for the entire checkout page */
+.checkout-container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Title styling for the checkout page */
+.checkout-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Form layout with column direction and spacing */
+.checkout-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Form group styling for label and input fields */
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Label styling */
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* Input and textarea styling */
+.form-group input,
+.form-group textarea {
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Row layout for city and state fields */
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+/* Error message styling */
+.form-error {
+    color: red;
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+/* Order summary box styling */
+.order-summary {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f5f5f5;
+    border-radius: 5px;
+}
+
+/* Order summary title styling */
+.order-summary h2 {
+    margin-bottom: 10px;
+}
+
+/* Button styling for placing an order */
+.place-order-btn {
+    width: 100%;
+    padding: 10px;
+    background: #ff9800;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover effect for the place order button */
+.place-order-btn:hover {
+    background: #e68900;
+}
+
+/* Styling for the order success message */
+.order-success {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Order success title color */
+.order-success h2 {
+    color: green;
+}
+
+/* Button styling for returning to shopping */
+.back-to-shopping-btn {
+    margin-top: 15px;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Hover effect for back to shopping button */
+.back-to-shopping-btn:hover {
+    background: #0056b3;
+}
+  

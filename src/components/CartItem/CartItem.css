@@ -1,0 +1,53 @@
+/* Styles for individual cart items */
+.cart-item {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Styles for the product image */
+.cart-item-image {
+  width: 50px;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Styles for the product title */
+.cart-item-title {
+  font-size: 16px;
+  font-weight: 500;
+  flex-grow: 1;
+}
+
+/* Styles for the product price */
+.cart-item-price {
+  color: #28a745;
+  font-weight: bold;
+}
+
+/* Styles for the quantity input field */
+.cart-item-quantity {
+  width: 50px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-align: center;
+}
+
+/* Styles for the remove button */
+.cart-item-remove {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Hover effect for remove button */
+.cart-item-remove:hover {
+  background-color: #cc0000;
+}
+  
