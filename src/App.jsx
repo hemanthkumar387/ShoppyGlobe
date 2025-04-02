@@ -8,7 +8,7 @@ import { ToastContainer } from "react-toastify";
 // Lazy loading components for better performance (code splitting)
 const ProductDetail = lazy(() => import("./components/ProductDetails/ProductDetails"));
 const Cart = lazy(() => import("./components/Cart/Cart"));
-const Checkout = lazy(() => import("./components/Checkout/Checkout")); // ✅ Added Checkout Page
+const Checkout = lazy(() => import("./components/CheckOut/CheckOut")); // Added Checkout Page
 const NotFound = lazy(() => import("./components/NotFound/NotFound"));
 
 function App() {
