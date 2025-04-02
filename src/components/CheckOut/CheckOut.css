@@ -1,6 +1,7 @@
 /* Container for the entire checkout page */
 .checkout-container {
-    max-width: 600px;
+    max-width: 90%;
+    width: 600px;
     margin: 50px auto;
     padding: 20px;
     background: white;
@@ -49,6 +50,10 @@
     display: flex;
     justify-content: space-between;
     gap: 10px;
+}
+
+.form-row .form-group {
+    width: 100%;
 }
 
 /* Error message styling */
@@ -117,4 +122,37 @@
 .back-to-shopping-btn:hover {
     background: #0056b3;
 }
-  
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .checkout-container {
+        width: 95%;
+        padding: 15px;
+    }
+    
+    .form-row {
+        flex-direction: column;
+    }
+    
+    .place-order-btn, .back-to-shopping-btn {
+        font-size: 16px;
+        padding: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .checkout-title {
+        font-size: 20px;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        font-size: 14px;
+        padding: 6px;
+    }
+    
+    .place-order-btn, .back-to-shopping-btn {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
