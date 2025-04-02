@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
 import { clearCart } from "../../utils/cartSlice";
-import "./Checkout.css";
+import "./CheckOut.css";
 
 function Checkout() {
     const dispatch = useDispatch(); // Hook to dispatch actions in Redux
