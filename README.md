@@ -1,4 +1,4 @@
-# Shopping Cart Application
+# 🛒 Shopping Cart Application
 
 ### This is a simple e-commerce shopping cart application built with React, Redux, and React Router. It allows users to browse products, add them to the cart, and proceed to checkout.
 
